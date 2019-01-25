@@ -49,7 +49,7 @@ class Product(db.Model):
 class ProductSchema(ma.Schema):
     """Schema."""
     class Meta:
-        """."""
+        """Campos."""
         fields = ('id', 'description', 'price', 'qty')
 
 # Init schema
